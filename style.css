@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://img.freepik.com/premium-vector/blank-math-template-with-math-symbol_1639-26329.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size:cover;
+    height: 800px;
+}
+
+.main {
+    width: 350px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: #9bcef86d;
+    margin-right: 500px;
+    margin-top: 80px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#btn1, #btn2 {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f6fafa;
+    color: #157682;
+    font-weight: 1000;
+}
+
+input[type="submit"]:hover {
+    background-color: #157682;
+    color: white;
+}
